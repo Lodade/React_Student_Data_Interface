@@ -12,6 +12,6 @@ The webapp should run without any use of babel on your end but the original file
 for viewing.
 
 If you wish to use babel to convert the .jsx files from javaScript_source_files into the .js files
-in the javaScript folder to prove that the .jsx files really are the source code, you will need to run one command:
-npx babel --watch javaScript_source_files --out-dir javaScript
-This command will run babel and convert the .jsx files to .js files.
+in the javaScript folder to prove that the .jsx files really are the source code, you will need to run one command:  
+"npx babel --watch javaScript_source_files --out-dir javaScript"  
+This command will run babel and convert the .jsx files to .js files.  
