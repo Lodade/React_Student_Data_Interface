@@ -17,13 +17,15 @@ function EntirePage(props) {
         changeFilteredData(await studentFilter(nameSearchInput, tagSearchInput, data));
     },[]);
 
+    React.useEffect(async () => {
+        changeFilteredData(await studentFilter(nameSearchInput, tagSearchInput, studentData));
+    },[nameSearchInput, tagSearchInput]);
+
     async function handleNameInput(e) {
-        changeFilteredData(await studentFilter(e.target.value, tagSearchInput, studentData));
         changeNameInput(e.target.value);
     }
 
     async function handleTagSearchInput(e) {
-        changeFilteredData(await studentFilter(nameSearchInput, e.target.value, studentData));
         changeTagSearchInput(e.target.value);
     }
 
@@ -34,7 +36,6 @@ function EntirePage(props) {
 
     async function handleTagSubmit(id) {
         changeStudentData(await studentTagAdder(id, tagInput, studentData));
-        changeFilteredData(await studentFilter(nameSearchInput, tagSearchInput, studentData));
         changeTagInput("");
     }
 
