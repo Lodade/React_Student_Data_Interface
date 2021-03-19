@@ -1,7 +1,7 @@
 # React_Student_Data_Interface
 
 To run the actual webapp, there are two steps:
-1. Run the fileOpener.js file in a terminal using the command node fileOpener.js
+1. Run the fileOpener.js file in a terminal using the command "node fileOpener.js"
 The output should then say the program is watching on port 3000 or whatever port.
 2. Go to "localhost:3000" and the webapp will show. 
 
