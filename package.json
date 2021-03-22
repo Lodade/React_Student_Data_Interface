@@ -1,0 +1,26 @@
+{
+  "name": "react_student_data_interface",
+  "version": "1.0.0",
+  "description": "To run the actual webapp, there are two steps:\r 1. Run the fileOpener.js file in a terminal using the command \"node fileOpener.js\"\r The output should then say the program is watching on port 3000 or whatever port.\r 2. Go to \"localhost:3000\" and the webapp will show.",
+  "main": "fileOpener.js",
+  "dependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lodade/React_Student_Data_Interface.git"
+  },
+  "author": "Jacob Wagner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lodade/React_Student_Data_Interface/issues"
+  },
+  "homepage": "https://github.com/Lodade/React_Student_Data_Interface#readme"
+}
