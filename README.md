@@ -1,4 +1,6 @@
 # React_Student_Data_Interface
+The webapp can now be opened using the following heroku link:
+https://react-student-interface.herokuapp.com/
 
 To run the actual webapp, there are two steps:
 1. Run the fileOpener.js file in a terminal using the command "node fileOpener.js"
